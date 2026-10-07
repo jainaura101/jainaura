@@ -1,0 +1,63 @@
+<svg width="600" height="700" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-fb" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fdf5ed"/>
+      <stop offset="100%" stop-color="#f2dfc8"/>
+    </linearGradient>
+    <linearGradient id="jar-fb" x1="0.1" x2="0.9" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff9f3"/>
+      <stop offset="55%" stop-color="#f8eadc"/>
+      <stop offset="100%" stop-color="#e4cdb2"/>
+    </linearGradient>
+    <linearGradient id="label-fb" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4a1a00"/>
+      <stop offset="100%" stop-color="#6e2800"/>
+    </linearGradient>
+    <filter id="shadow-fb">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#6e3010" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" fill="url(#bg-fb)"/>
+
+  <!-- Jar body -->
+  <rect x="145" y="185" width="310" height="376" rx="40" fill="url(#jar-fb)" filter="url(#shadow-fb)"/>
+  <!-- Glass highlight -->
+  <rect x="163" y="200" width="28" height="338" rx="14" fill="rgba(255,255,255,0.52)"/>
+
+  <!-- Lid — warm purple/brown (fig colour) -->
+  <rect x="132" y="152" width="336" height="46" rx="23" fill="#7a3055"/>
+  <rect x="152" y="160" width="296" height="17" rx="8.5" fill="#ad5080" opacity="0.5"/>
+
+  <!-- Label -->
+  <rect x="168" y="268" width="264" height="162" rx="13" fill="url(#label-fb)"/>
+  <text x="300" y="305" text-anchor="middle" font-size="20" fill="#c9a86c" font-family="Georgia,serif">❧</text>
+  <text x="300" y="332" text-anchor="middle" font-size="12" fill="#f0d8c0" font-family="Georgia,serif" letter-spacing="3">JAIN AURA</text>
+  <text x="300" y="358" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Fig</text>
+  <text x="300" y="380" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Bounty</text>
+  <text x="300" y="408" text-anchor="middle" font-size="10" fill="#c9a86c" font-family="Arial,sans-serif" letter-spacing="2">500g • CURATED</text>
+
+  <!-- Figs at top — rounded, purplish-brown -->
+  <circle cx="244" cy="248" r="24" fill="#7a3055" opacity="0.9"/>
+  <circle cx="288" cy="238" r="28" fill="#9a4070" opacity="0.88"/>
+  <circle cx="334" cy="244" r="24" fill="#6a2848" opacity="0.92"/>
+  <circle cx="371" cy="252" r="20" fill="#7a3055" opacity="0.88"/>
+
+  <!-- Fig stem detail -->
+  <line x1="287" y1="212" x2="290" y2="226" stroke="#4a1a00" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="330" y1="220" x2="333" y2="232" stroke="#4a1a00" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Fig highlights -->
+  <circle cx="284" cy="233" r="7" fill="rgba(255,200,180,0.35)"/>
+  <circle cx="333" cy="239" r="6" fill="rgba(255,200,180,0.3)"/>
+
+  <!-- Scattered figs below -->
+  <circle cx="178" cy="582" r="14" fill="#7a3055" opacity="0.48"/>
+  <circle cx="415" cy="590" r="12" fill="#9a4070" opacity="0.45"/>
+  <circle cx="195" cy="612" r="10" fill="#6a2848" opacity="0.42"/>
+  <circle cx="400" cy="572" r="16" fill="#7a3055" opacity="0.5"/>
+
+  <!-- Weight badge -->
+  <rect x="228" y="590" width="144" height="34" rx="17" fill="rgba(74,26,0,0.08)" stroke="#7a3055" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="300" y="613" text-anchor="middle" font-size="11" fill="#4a1a00" font-family="Arial,sans-serif" letter-spacing="2" font-weight="600">NET WT. 500g</text>
+</svg>

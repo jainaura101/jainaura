@@ -1,0 +1,29 @@
+<svg width="600" height="700" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-cg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#fdfaf2"/><stop offset="100%" stop-color="#f0e6c8"/></linearGradient>
+    <linearGradient id="jar-cg" x1="0.1" x2="0.9" y1="0" y2="1"><stop offset="0%" stop-color="#fffdf6"/><stop offset="55%" stop-color="#f8f0d8"/><stop offset="100%" stop-color="#e4d0a8"/></linearGradient>
+    <linearGradient id="label-cg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#1E4D2B"/><stop offset="100%" stop-color="#2d6b3d"/></linearGradient>
+    <filter id="shadow-cg"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#8d7030" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg-cg)"/>
+  <rect x="145" y="185" width="310" height="375" rx="40" fill="url(#jar-cg)" filter="url(#shadow-cg)"/>
+  <rect x="163" y="200" width="27" height="338" rx="13" fill="rgba(255,255,255,0.52)"/>
+  <rect x="132" y="152" width="336" height="46" rx="23" fill="#c9a86c"/>
+  <rect x="152" y="160" width="296" height="17" rx="8" fill="#e8d898" opacity="0.55"/>
+  <rect x="168" y="270" width="264" height="158" rx="13" fill="url(#label-cg)"/>
+  <text x="300" y="307" text-anchor="middle" font-size="20" fill="#c9a86c" font-family="Georgia,serif">✦</text>
+  <text x="300" y="334" text-anchor="middle" font-size="12" fill="#f0e8d8" font-family="Georgia,serif" letter-spacing="3">JAIN AURA</text>
+  <text x="300" y="360" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Cashew</text>
+  <text x="300" y="382" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Gold</text>
+  <text x="300" y="408" text-anchor="middle" font-size="10" fill="#c9a86c" font-family="Arial,sans-serif" letter-spacing="2">500g • PREMIUM</text>
+  <!-- Cashews at top - kidney shapes -->
+  <path d="M220 255 Q238 232 258 248 Q265 262 248 268 Q230 272 220 255Z" fill="#d4a256" opacity="0.9"/>
+  <path d="M265 242 Q285 218 308 236 Q316 252 298 258 Q278 262 265 242Z" fill="#c49044" opacity="0.9"/>
+  <path d="M312 248 Q330 226 352 242 Q360 256 342 262 Q322 266 312 248Z" fill="#b87d38" opacity="0.9"/>
+  <ellipse cx="272" cy="234" rx="8" ry="5" fill="rgba(255,255,255,0.35)" transform="rotate(20,272,234)"/>
+  <!-- Scattered -->
+  <path d="M165 580 Q178 568 188 578 Q192 588 180 592 Q168 594 165 580Z" fill="#d4a256" opacity="0.5"/>
+  <path d="M405 575 Q418 563 428 573 Q432 583 420 587 Q408 589 405 575Z" fill="#c49044" opacity="0.48"/>
+  <rect x="228" y="592" width="144" height="34" rx="17" fill="rgba(30,77,43,0.1)" stroke="#1E4D2B" stroke-width="1" stroke-opacity="0.28"/>
+  <text x="300" y="615" text-anchor="middle" font-size="11" fill="#1E4D2B" font-family="Arial,sans-serif" letter-spacing="2" font-weight="600">NET WT. 500g</text>
+</svg>

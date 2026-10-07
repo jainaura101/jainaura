@@ -1,0 +1,62 @@
+<svg width="600" height="700" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-mdf" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6ee"/>
+      <stop offset="100%" stop-color="#f0e0c8"/>
+    </linearGradient>
+    <linearGradient id="jar-mdf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="60%" stop-color="#f5e9d8"/>
+      <stop offset="100%" stop-color="#dfc9ac"/>
+    </linearGradient>
+    <linearGradient id="label-mdf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1E4D2B"/>
+      <stop offset="100%" stop-color="#162a1d"/>
+    </linearGradient>
+    <filter id="shadow-mdf" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#8d6635" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="700" fill="url(#bg-mdf)"/>
+
+  <!-- Jar body -->
+  <rect x="140" y="180" width="320" height="380" rx="40" fill="url(#jar-mdf)" filter="url(#shadow-mdf)"/>
+
+  <!-- Jar glass highlight -->
+  <rect x="158" y="195" width="32" height="340" rx="16" fill="rgba(255,255,255,0.55)"/>
+
+  <!-- Lid -->
+  <rect x="130" y="148" width="340" height="46" rx="22" fill="#c9a86c"/>
+  <rect x="150" y="155" width="300" height="18" rx="9" fill="#e8c98a" opacity="0.6"/>
+
+  <!-- Label on jar -->
+  <rect x="165" y="270" width="270" height="160" rx="14" fill="url(#label-mdf)"/>
+  <!-- Label leaf decoration -->
+  <text x="300" y="308" text-anchor="middle" font-size="22" fill="#c9a86c" font-family="Georgia,serif">✦</text>
+  <text x="300" y="340" text-anchor="middle" font-size="13" fill="#f5efe8" font-family="Georgia,serif" letter-spacing="3">JAIN AURA</text>
+  <text x="300" y="368" text-anchor="middle" font-size="16" fill="#ffffff" font-family="Georgia,serif" font-weight="600" letter-spacing="1">Mixed</text>
+  <text x="300" y="390" text-anchor="middle" font-size="16" fill="#ffffff" font-family="Georgia,serif" font-weight="600" letter-spacing="1">Dry Fruits</text>
+  <text x="300" y="415" text-anchor="middle" font-size="11" fill="#c9a86c" font-family="Arial,sans-serif" letter-spacing="2">500g • NATURAL</text>
+
+  <!-- Nuts peeking out of jar top area -->
+  <ellipse cx="240" cy="248" rx="28" ry="22" fill="#a0632a" opacity="0.9"/>
+  <ellipse cx="280" cy="238" rx="32" ry="24" fill="#c49f69" opacity="0.9"/>
+  <ellipse cx="325" cy="244" rx="26" ry="20" fill="#7a5c2a" opacity="0.9"/>
+  <ellipse cx="360" cy="250" rx="22" ry="18" fill="#5e7d33" opacity="0.9"/>
+
+  <!-- Highlight on nuts -->
+  <ellipse cx="275" cy="233" rx="10" ry="7" fill="rgba(255,255,255,0.35)"/>
+  <ellipse cx="328" cy="239" rx="8" ry="5" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Small decorative nuts scattered -->
+  <ellipse cx="180" cy="580" rx="18" ry="12" fill="#c49f69" opacity="0.55" transform="rotate(-20, 180, 580)"/>
+  <ellipse cx="420" cy="590" rx="14" ry="10" fill="#7a5c2a" opacity="0.5" transform="rotate(15, 420, 590)"/>
+  <ellipse cx="200" cy="610" rx="12" ry="8" fill="#5e7d33" opacity="0.45" transform="rotate(-10, 200, 610)"/>
+  <ellipse cx="390" cy="570" rx="16" ry="11" fill="#a0632a" opacity="0.5" transform="rotate(25, 390, 570)"/>
+
+  <!-- Weight tag -->
+  <rect x="225" y="590" width="150" height="36" rx="18" fill="rgba(30,77,43,0.12)" stroke="#1E4D2B" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="300" y="614" text-anchor="middle" font-size="12" fill="#1E4D2B" font-family="Arial,sans-serif" letter-spacing="2" font-weight="600">NET WT. 500g</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="600" height="700" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-dt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fdf3ea"/>
+      <stop offset="100%" stop-color="#f0dac2"/>
+    </linearGradient>
+    <linearGradient id="jar-dt" x1="0.1" x2="0.9" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff8f2"/>
+      <stop offset="55%" stop-color="#f8ead8"/>
+      <stop offset="100%" stop-color="#e6ccb0"/>
+    </linearGradient>
+    <linearGradient id="label-dt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3d1a00"/>
+      <stop offset="100%" stop-color="#5a2800"/>
+    </linearGradient>
+    <filter id="shadow-dt">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#7a3a10" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" fill="url(#bg-dt)"/>
+
+  <!-- Jar body -->
+  <rect x="145" y="188" width="310" height="372" rx="40" fill="url(#jar-dt)" filter="url(#shadow-dt)"/>
+  <!-- Glass highlight -->
+  <rect x="163" y="203" width="28" height="334" rx="14" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Lid — dark brown/gold -->
+  <rect x="132" y="154" width="336" height="48" rx="24" fill="#8d5a2a"/>
+  <rect x="152" y="162" width="296" height="18" rx="9" fill="#c49044" opacity="0.55"/>
+
+  <!-- Label -->
+  <rect x="168" y="272" width="264" height="158" rx="13" fill="url(#label-dt)"/>
+  <text x="300" y="308" text-anchor="middle" font-size="21" fill="#c9a86c" font-family="Georgia,serif">✦</text>
+  <text x="300" y="336" text-anchor="middle" font-size="12" fill="#f0d8c0" font-family="Georgia,serif" letter-spacing="3">JAIN AURA</text>
+  <text x="300" y="362" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Premium</text>
+  <text x="300" y="384" text-anchor="middle" font-size="17" fill="#ffffff" font-family="Georgia,serif" font-weight="600">Dates</text>
+  <text x="300" y="410" text-anchor="middle" font-size="10" fill="#c9a86c" font-family="Arial,sans-serif" letter-spacing="2">500g • BEST SELLER</text>
+
+  <!-- Dates at top — dark brown oval clusters -->
+  <ellipse cx="234" cy="252" rx="24" ry="20" fill="#5a2800" opacity="0.95"/>
+  <ellipse cx="270" cy="240" rx="28" ry="22" fill="#7a3a10" opacity="0.9"/>
+  <ellipse cx="316" cy="244" rx="26" ry="20" fill="#4a2000" opacity="0.95"/>
+  <ellipse cx="355" cy="252" rx="22" ry="18" fill="#6a3208" opacity="0.9"/>
+  <!-- Date highlights -->
+  <ellipse cx="267" cy="235" rx="7" ry="5" fill="rgba(255,200,130,0.35)"/>
+  <ellipse cx="317" cy="239" rx="6" ry="4" fill="rgba(255,200,130,0.3)"/>
+
+  <!-- Scattered dates below jar -->
+  <ellipse cx="180" cy="582" rx="16" ry="13" fill="#7a3a10" opacity="0.48"/>
+  <ellipse cx="418" cy="590" rx="14" ry="12" fill="#5a2800" opacity="0.45"/>
+  <ellipse cx="196" cy="614" rx="12" ry="10" fill="#6a3208" opacity="0.42"/>
+  <ellipse cx="402" cy="572" rx="18" ry="14" fill="#7a3a10" opacity="0.5"/>
+
+  <!-- Weight badge -->
+  <rect x="226" y="590" width="148" height="34" rx="17" fill="rgba(90,40,0,0.08)" stroke="#8d5a2a" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="300" y="613" text-anchor="middle" font-size="11" fill="#5a2800" font-family="Arial,sans-serif" letter-spacing="2" font-weight="600">NET WT. 500g</text>
+</svg>
