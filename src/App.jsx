@@ -342,23 +342,6 @@ function App() {
           </div>
         </section>
 
-        {/* ═══ GOODNESS SECTION ═══ */}
-        <section className="story-section section-shell" id="story">
-          <div className="story-intro story-card">
-            <p className="eyebrow">Goodness in Every Bite</p>
-            <h2>Carefully selected dry fruits and fine foods, packed for everyday nourishment.</h2>
-          </div>
-          <div className="feature-grid">
-            {storyFeatures.map(f => (
-              <article className="feature-card story-card" key={f.title}>
-                <div className="feature-icon" aria-hidden="true">{f.icon}</div>
-                <h3>{f.title}</h3>
-                <p>{f.text}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
         {/* ═══ PRODUCTS GRID — 2 rows × 4 cols ═══ */}
         <section className="products-grid-section" id="products">
           <div className="products-grid-inner">
@@ -386,6 +369,23 @@ function App() {
                 </article>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* ═══ GOODNESS SECTION ═══ */}
+        <section className="story-section section-shell" id="story">
+          <div className="story-intro story-card">
+            <p className="eyebrow">Goodness in Every Bite</p>
+            <h2>Carefully selected dry fruits and fine foods, packed for everyday nourishment.</h2>
+          </div>
+          <div className="feature-grid">
+            {storyFeatures.map(f => (
+              <article className="feature-card story-card" key={f.title}>
+                <div className="feature-icon" aria-hidden="true">{f.icon}</div>
+                <h3>{f.title}</h3>
+                <p>{f.text}</p>
+              </article>
+            ))}
           </div>
         </section>
 
