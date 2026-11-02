@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Analytics } from '@vercel/analytics/react'
 import { products } from './data/products'
 import { IntroScreen } from './components/IntroScreen'
 import './App.css'
@@ -452,6 +453,7 @@ function App() {
         </div>
         <div className="footer-bottom">© 2026 Jain Aura. All rights reserved.</div>
       </footer>
+      <Analytics />
     </div>
   )
 }
