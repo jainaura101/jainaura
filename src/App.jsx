@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -452,6 +453,7 @@ function App() {
         </div>
         <div className="footer-bottom">© 2026 Jain Aura. All rights reserved.</div>
       </footer>
+      <Analytics />
     </div>
   )
 }
