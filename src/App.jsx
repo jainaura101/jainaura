@@ -5,7 +5,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Analytics } from '@vercel/analytics/react'
 import { products } from './data/products'
 import { IntroScreen } from './components/IntroScreen'
-import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
 gsap.registerPlugin(ScrollTrigger)
